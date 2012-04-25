@@ -1,0 +1,40 @@
+Kwal0.3             MTTGLMRHFSRTKAHRDSMFRNLVSQLFQHGSIVSTHEKCLEASRMAERIITMAKKLEQH
+SAKL0D07062g        MTVGLARHLSRTKPHRDALLKNLVTQLFQHGSITSTHEKCKEASRLAERAITIAKRYNSN
+KLLA0F01793g        MTRGLARHLSRTKPHRDALIRNMATQLLQHGTISSTtpKLKETQRYVERIITIAKNGIQN
+gene_mark           :: :: :: :::: :::    :   :: ::: : ::  :  :  :  :: :: ::     
+gene_keep           =======================================================     
+
+Kwal0.3             PNsar---EIQSRLSLAGDNSKLLRRVVNELAPRYQQRPGGYTRVLKLEPRLGDRAKQSV
+SAKL0D07062g        PDvki-VSELQSRLFHSGDNSKVLKKLLQEIAPRCVTRPGGYTRVLHLEPRLGDRARQSV
+KLLA0F01793g        GNpsssVPELQSRLYLSGDNSKLLKKLFDEIAPRYTARNGGYTRVMKLEPRLGDRAPQAI
+gene_mark                   : ::::   ::::: :     : :::   : ::::::  ::::::::: :  
+gene_keep                   ====================================================
+
+Kwal0.3             LELVDAPIVGENGTLQRGDLKLWLLCKAAIQNEASQEAYSRLTLQNFAKMLKFRpdphAF
+SAKL0D07062g        LELVDNPVIDQNGQFQRGNLKLWLLCKTMLANESAQEPYSDNTLQNFRKIAKFQndfdAF
+KLLA0F01793g        LELVDAPVQNEDGQLLKGNLKLWLLTKTcmqqiedagqlapkTVQNLKKMVhnktldq--
+gene_mark           ::::: :     :    : :::::: :               : ::  :           
+gene_keep           ===========================                                 
+
+Kwal0.3             FVNDVMAVKKFI----------KQEQGLEWDEKHEIGLLEQLESQVLGLSAQPEtsqiQK
+SAKL0D07062g        LSKDVLAIRKFI----------KLQEQQPWDEEQELQQLKVLKQKVLSPSQKKN----Hs
+KLLA0F01793g        LLHEIGVIRKYIlesqqqnsttEVSELPEFDETLQQQFLAAVKDQIQNHTAEKK----QP
+gene_mark                    : :                  ::      :                     
+gene_keep                                                                       
+
+Kwal0.3             FVNDVMAVKKFI----------KQEQGLEWDEKHEIGLLEQLESQVLGLSAQPEtsqiQKA---GYTFVNERPGR-
+SAKL0D07062g        LSKDVLAIRKFI----------KLQEQQPWDEEQELQQLKVLKQKVLSPSQKKN----HsgstpGFNYVSKRPERl
+KLLA0F01793g        LLHEIGVIRKYIlesqqqnsttEVSELPEFDETLQQQFLAAVKDQIQNHTAEKK----QPD---GYVFr-ERPtqg
+gene_mark                    : :                  ::      :                         :      ::   
+gene_keep                                                                                       
+
+
+
+*******************************
+*        Argument             *
+*******************************
+#gap_allow:	0
+#min_conserve:	5
+#min_flanking:	10
+#max_nonconserve:	6
+#judge_conserve:	1.0

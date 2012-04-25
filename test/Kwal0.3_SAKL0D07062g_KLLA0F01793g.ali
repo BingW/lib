@@ -1,0 +1,88 @@
+ 
+                           DIALIGN 2.2.1 
+                           *************
+ 
+          Program code written by Burkhard Morgenstern and Said Abdeddaim 
+             e-mail contact: dialign (at) gobics (dot) de 
+ 
+          Published research assisted by DIALIGN 2 should cite:  
+ 
+             Burkhard Morgenstern (1999).
+             DIALIGN 2: improvement of the segment-to-segment
+             approach to multiple sequence alignment.
+             Bioinformatics 15, 211 - 218. 
+
+          For more information, please visit the DIALIGN home page at 
+
+             http://bibiserv.techfak.uni-bielefeld.de/dialign/ 
+ 
+         ************************************************************
+ 
+
+
+   program call:  dialign2-2 -fa /Users/bingwang/VimWork/new_output/Kwal_Sklu_Klac/Kwal0.3_SAKL0D07062g_KLLA0F01793g.fasta  
+
+ 
+   Aligned sequences:          length:
+   ==================          =======
+ 
+   1) Kwal0.3                    239
+   2) SAKL0D07062g               241
+   3) KLLA0F01793g               246
+
+   Average seq. length:          242.0 
+
+
+   Please note that only upper-case letters are considered to be aligned. 
+
+
+   Alignment (DIALIGN format):
+   ===========================
+ 
+Kwal0.3            1   MTTGLMRHFS RTKAHRDSMF RNLVSQLFQH GSIVSTHEKC LEASRMAERI 
+SAKL0D07062g       1   MTVGLARHLS RTKPHRDALL KNLVTQLFQH GSITSTHEKC KEASRLAERA 
+KLLA0F01793g       1   MTRGLARHLS RTKPHRDALI RNMATQLLQH GTISSTtpKL KETQRYVERI 
+                                                                 
+                       8888888888 8888888888 8888888888 8888883344 0111111111 
+ 
+Kwal0.3           51   ITMAKKLEQH PNsar---EI QSRLSLAGDN SKLLRRVVNE LAPRYQQRPG 
+SAKL0D07062g      51   ITIAKRYNSN PDvki-VSEL QSRLFHSGDN SKVLKKLLQE IAPRCVTRPG 
+KLLA0F01793g      51   ITIAKNGIQN GNpsssVPEL QSRLYLSGDN SKLLKKLFDE IAPRYTARNG 
+                                                                 
+                       1111111111 1100002266 6666666666 6666666666 6666555888 
+ 
+Kwal0.3           98   GYTRVLKLEP RLGDRAKQSV LELVDAPIVG ENGTLQRGDL KLWLLCKAAI 
+SAKL0D07062g     100   GYTRVLHLEP RLGDRARQSV LELVDNPVID QNGQFQRGNL KLWLLCKTML 
+KLLA0F01793g     101   GYTRVMKLEP RLGDRAPQAI LELVDAPVQN EDGQLLKGNL KLWLLTKTcm 
+                                                                 
+                       8888885699 9999999999 9999999999 9995588888 8888888522 
+ 
+Kwal0.3          148   QNEASQEAYS RLTLQNFAKM LKFRpdphAF FVNDVMAVKK FI-------- 
+SAKL0D07062g     150   ANESAQEPYS DNTLQNFRKI AKFQndfdAF LSKDVLAIRK FI-------- 
+KLLA0F01793g     151   qqiedagqla pkTVQNLKKM Vhnktldq-- LLHEIGVIRK YIlesqqqns 
+                                                                 
+                       2222222222 2222222222 2222000011 1111111111 1100000000 
+ 
+Kwal0.3          190   --KQEQGLEW DEKHEIGLLE QLESQVLGLS AQPEtsqiQK A---GYTFVN 
+SAKL0D07062g     192   --KLQEQQPW DEEQELQQLK VLKQKVLSPS QKKN----Hs gstpGFNYVS 
+KLLA0F01793g     199   ttEVSELPEF DETLQQQFLA AVKDQIQNHT AEKK----QP D---GYVFr- 
+                                                                 
+                       0011111111 1111111111 1111111000 0000000000 0000000000 
+ 
+Kwal0.3          235   ERPGR- 
+SAKL0D07062g     236   KRPERl 
+KLLA0F01793g     241   ERPtqg 
+                 
+                       000000 
+ 
+
+ 
+ 
+   Sequence tree:
+   ==============
+
+Tree constructed using UPGMAbased on DIALIGN fragment weight scores
+ 
+((Kwal0.3     :0.005858SAKL0D07062g:0.005858):0.002575KLLA0F01793g:0.008434);
+ 
+ 
