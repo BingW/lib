@@ -22,28 +22,40 @@ syn keyword Turn but nevertheless however although though whereas
 syn keyword Logical not and or nor either so hence whether both include[s] only also
 syn keyword Be is are am were was be
 syn keyword Need need[sed] require[sed] from 
+syn keyword Attribute capable can
 syn keyword Attribute of at on in to which that
 syn keyword Article a the 
 syn match Example "for examples?"
 syn match Example "one such"
 syn match Example "in addition"
 syn match Example "just\sas"
+syn match Example "such as"
 syn match Previous "recent works\?" 
 syn match Previous "recent discovery"
 syn match Previous "recent researchs\?"
 syn match Previous "previous work"
-syn match Enumerate "(.)"
 
 
 :highlight link Turn            Statement 
 :highlight link Be              Statement 
 :highlight link Need            Statement 
+:highlight link Can             Statement 
 :highlight link Logical         Statement 
 :highlight link Example         Comment
 :highlight link Previous        Comment
 :highlight link Attribute       Identifier
 :highlight link Article         Constant
 
+:try
+    :%s/[.!?] /./g   
+:endtry
+:try
+    :%s/- /_/g
+:endtry
+:try
+    :%s/-/_/g
+:endtry
+:set linebreak
 
 ":syntax keyword xMain hypothesis result do bg eg however
 ":syntax keyword xStatement if def class not and or for but true
