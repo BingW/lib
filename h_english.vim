@@ -46,15 +46,9 @@ syn match Previous "previous work"
 :highlight link Attribute       Identifier
 :highlight link Article         Constant
 
-:try
-    :%s/[.!?] /./g   
-:endtry
-:try
-    :%s/- /_/g
-:endtry
-:try
-    :%s/-/_/g
-:endtry
+:%s/[.!?] /./g   
+:%s/-/_/g
+:%s/- /_/g
 :set linebreak
 
 ":syntax keyword xMain hypothesis result do bg eg however
